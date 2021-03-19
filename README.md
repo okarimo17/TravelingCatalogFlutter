@@ -2,6 +2,8 @@
 Just a small app,To get used with the Flutter design system as a beginner.
 
 # Some Pictures :
+[Video Preview](https://www.youtube.com/watch?v=lOHTS1qg8XE)
+
 ![screen1](/preview/sc1.png)
 ![screen1](/preview/sc2.png)
 
