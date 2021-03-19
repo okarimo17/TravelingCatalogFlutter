@@ -15,6 +15,7 @@ class App extends StatelessWidget {
       onGenerateRoute: _routes(),
       theme: ThemeData(
           appBarTheme: AppBarStyle,
+          primaryColor: RedColorPrimary,
           textTheme: TextTheme(
             headline6: TitleTextStyle,
             bodyText2: Body2TextStyle,

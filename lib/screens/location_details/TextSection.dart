@@ -1,9 +1,10 @@
+import 'package:app_1/style.dart';
 import 'package:flutter/material.dart';
 
 class TextSection extends StatelessWidget {
   final String _title;
   final String _content;
-  static const double _hpad = 16;
+  static const double _hpad = DefaultPaddingHorizontal;
 
   TextSection(this._title, this._content);
 

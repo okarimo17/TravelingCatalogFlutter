@@ -23,10 +23,9 @@ class LocationTile extends StatelessWidget {
           Text(
             location.name.toUpperCase(),
             maxLines: 1,
-            style: Theme.of(context)
-                .textTheme
-                .bodyText1
-                .copyWith(color: textColor),
+            style: Theme.of(context).textTheme.bodyText1.copyWith(
+                  color: textColor,
+                ),
           ),
           Text(
             location.userItinerarySummary.toUpperCase(),
@@ -37,7 +36,7 @@ class LocationTile extends StatelessWidget {
             style: Theme.of(context)
                 .textTheme
                 .subtitle2
-                .copyWith(color: this.dark ? textColor : Colors.white24),
+                .copyWith(color: this.dark ? textColor : Colors.white),
           ),
         ],
       ),

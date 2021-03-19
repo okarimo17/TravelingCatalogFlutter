@@ -24,6 +24,9 @@ const AppBarStyle = AppBarTheme(
   centerTitle: true,
   titleTextStyle: AppBarTextStyle,
   backgroundColor: Colors.white,
+  iconTheme: IconThemeData(
+    color: Colors.black45,
+  ),
 );
 
 const TitleTextStyle = TextStyle(
@@ -36,7 +39,7 @@ const TitleTextStyle = TextStyle(
 const Body2TextStyle = TextStyle(
   fontFamily: FontName,
   fontWeight: FontWeight.w300,
-  fontSize: BodyTextSize,
+  fontSize: BodyTextSize - 2,
   color: Colors.black,
 );
 
@@ -57,5 +60,5 @@ const TileSubTitle2TextStyle = TextStyle(
   fontFamily: FontName,
   fontWeight: FontWeight.w300,
   fontSize: SmallTextSize,
-  color: Colors.white24,
+  color: Colors.white12,
 );

@@ -1,6 +1,7 @@
-# app_1
+# Traveling Catalog Flutter :
+Just a small app,To get used with the Flutter design system as a beginner.
 
-A new Flutter project.
+# Some Pictures :
 
 ## Getting Started
 
